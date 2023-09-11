@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Business Gifts and Donations</fullName>
+                <default>false</default>
+                <label>Business Gifts and Donations</label>
+            </value>
+            <value>
+                <fullName>Client-related Expenses</fullName>
+                <default>false</default>
+                <label>Client-related Expenses</label>
+            </value>
+            <value>
+                <fullName>Communication Expenses</fullName>
+                <default>false</default>
+                <label>Communication Expenses</label>
+            </value>
+            <value>
+                <fullName>Conferences and Events</fullName>
+                <default>false</default>
+                <label>Conferences and Events</label>
+            </value>
+            <value>
+                <fullName>Healthcare and Wellness</fullName>
+                <default>false</default>
+                <label>Healthcare and Wellness</label>
+            </value>
+            <value>
+                <fullName>Home Office Expenses</fullName>
+                <default>false</default>
+                <label>Home Office Expenses</label>
+            </value>
+            <value>
+                <fullName>IT and Software Expenses</fullName>
+                <default>false</default>
+                <label>IT and Software Expenses</label>
+            </value>
+            <value>
+                <fullName>Marketing and Sales Expenses</fullName>
+                <default>false</default>
+                <label>Marketing and Sales Expenses</label>
+            </value>
+            <value>
+                <fullName>Meals and Entertainment</fullName>
+                <default>false</default>
+                <label>Meals and Entertainment</label>
+            </value>
+            <value>
+                <fullName>Membership and Subscriptions</fullName>
+                <default>false</default>
+                <label>Membership and Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Expenses</fullName>
+                <default>false</default>
+                <label>Miscellaneous Expenses</label>
+            </value>
+            <value>
+                <fullName>Office Supplies and Equipment</fullName>
+                <default>false</default>
+                <label>Office Supplies and Equipment</label>
+            </value>
+            <value>
+                <fullName>Petty Cash Expenses</fullName>
+                <default>false</default>
+                <label>Petty Cash Expenses</label>
+            </value>
+            <value>
+                <fullName>Professional Development</fullName>
+                <default>false</default>
+                <label>Professional Development</label>
+            </value>
+            <value>
+                <fullName>Recruitment Expenses</fullName>
+                <default>false</default>
+                <label>Recruitment Expenses</label>
+            </value>
+            <value>
+                <fullName>Safety Equipment</fullName>
+                <default>false</default>
+                <label>Safety Equipment</label>
+            </value>
+            <value>
+                <fullName>Taxes and License Fees</fullName>
+                <default>false</default>
+                <label>Taxes and License Fees</label>
+            </value>
+            <value>
+                <fullName>Training and Education</fullName>
+                <default>false</default>
+                <label>Training and Education</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Travel Expenses</fullName>
+                <default>false</default>
+                <label>Travel Expenses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

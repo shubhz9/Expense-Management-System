@@ -1,0 +1,15 @@
+<!--
+  @description       : 
+  @author            : Shubham Raut
+  @group             : 
+  @last modified on  : 09-11-2023
+  @last modified by  : Shubham Raut
+  Modifications Log
+  Ver   Date         Author         Modification
+  1.0   09-11-2023   Shubham Raut   Initial Version
+-->
+<template>
+    <template if:true={hasAccess}>
+        <lightning-button class="slds-align_absolute-center" label="Approve Expense" variant="success" icon-name="action:approval" onclick={onClickApproveExpense}></lightning-button>
+    </template>
+</template>
