@@ -1,0 +1,29 @@
+<!--
+  @description       : 
+  @author            : Shubham Raut
+  @group             : 
+  @last modified on  : 09-11-2023
+  @last modified by  : Shubham Raut
+  Modifications Log
+  Ver   Date         Author         Modification
+  1.0   09-07-2023   Shubham Raut   Initial Version
+-->
+<template>
+    <div class="slds-grid slds-grid_align-end">
+        <div class="slds-col slds-size_1-of-1">
+            <!-- Content on the left -->
+        </div>
+        <div class="slds-col slds-size_1-of-6 slds-float_right">
+            <lightning-button icon-name="utility:loop" onclick={refreshExpense} label="Refresh Data"></lightning-button>
+        </div>
+    </div>    
+    <lightning-card>
+        <lightning-datatable  
+            columns={columns}
+            key-field="Id"
+            data={records}
+            title="ExpenseList">
+
+        </lightning-datatable>
+    </lightning-card>
+</template>
